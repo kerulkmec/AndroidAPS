@@ -202,7 +202,7 @@
     <string name="careportal_newnstreatment_sensor">сенсор</string>
     <string name="careportal_newnstreatment_carbs_label">углеводы</string>
     <string name="careportal_newnstreatment_insulin_label">инсулин</string>
-    <string name="careportal_newnstreatment_carbtime_label">Время действия углеводов</string>
+    <string name="careportal_newnstreatment_carbtime_label">Подождать до еды</string>
     <string name="careportal_newnstreatment_split_label">разбивка</string>
     <string name="careportal_newnstreatment_duration_label">Длительность действия</string>
     <string name="careportal_newnstreatment_percent_label">процент</string>
@@ -298,7 +298,7 @@
     <string name="danar_history_glucose">гликемия</string>
     <string name="danar_history_refill">Перезаправка</string>
     <string name="danar_history_syspend">Останов</string>
-    <string name="danar_history_connectingfor">Связь установлена за %1$d сек</string>
+    <string name="danar_history_connectingfor">Попытка установить связь: %1$d сек</string>
     <string name="danar_password_title">пароль помпы</string>
     <string name="wrongpumppassword">неверный пароль помпы</string>
     <string name="pumpbusy">помпа занята</string>
