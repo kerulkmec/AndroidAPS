@@ -708,6 +708,7 @@
     <string name="bgsource_upload">BZ Upload Einstellungen</string>
     <string name="wear_detailed_delta_title">Zeige detailliertes Delta</string>
     <string name="wear_detailed_delta_summary">Delta wird mit Dezimalstelle angezeigt.</string>
+    <string name="smbmaxminutes">SMB max. Minuten</string>
     <string name="smbmaxminutes_summary">SMB Basal-Limit in Minuten</string>
     <string name="unsupportedfirmware">Nicht unterstützte Pumpen-Firmware</string>
     <string name="dexcomg5_xdripupload_title">Sende BZ-Werte zu xDrip+</string>
