@@ -708,6 +708,7 @@
     <string name="bgsource_upload">Параметры загрузки СК</string>
     <string name="wear_detailed_delta_title">Показать подробно дельту</string>
     <string name="wear_detailed_delta_summary">Показать дельту еще с одним десятичным знаком</string>
+    <string name="smbmaxminutes">Максимум минут микроболюса SMB</string>
     <string name="smbmaxminutes_summary">Верхний лимит минут базала на SMB</string>
     <string name="unsupportedfirmware">Неподдерживаемая версия прошивки помпы</string>
     <string name="dexcomg5_xdripupload_title">Отправить данные СК на xDrip+</string>
