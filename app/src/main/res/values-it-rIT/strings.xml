@@ -7,7 +7,7 @@
     <!--    <string name="ja_lang" translatable="false">Japanese</string> -->
     <string name="treatmentssafety_title">Sicurezza trattamenti</string>
     <string name="treatmentssafety_maxbolus_title">Max bolo consentito [U]</string>
-    <string name="treatmentssafety_maxcarbs_title">Max carboidrati consentiti [g]</string>
+    <string name="treatmentssafety_maxcarbs_title">Max CHO consentiti [g]</string>
     <string name="nav_preferences">Preferenze</string>
     <string name="nav_refreshtreatments">Ricarica trattamenti da NS</string>
     <string name="nav_resetdb">Resetta database</string>
@@ -64,7 +64,7 @@
     <string name="nsprofileview_target_label">Target</string>
     <string name="noprofileset">NESSUN PROFILO IMPOSTATO</string>
     <string name="treatments_insulin_label_string">Insulina:</string>
-    <string name="treatments_carbs_label_string">Carboidrati:</string>
+    <string name="treatments_carbs_label_string">CHO:</string>
     <string name="treatments_iob_label_string">IOB:</string>
     <string name="sms_iob">IOB:</string>
     <string name="treatments_iobtotal_label_string">IOB totale:</string>
@@ -75,10 +75,10 @@
     <string name="tempbasals_iob_label_string">IOB:</string>
     <string name="tempbasals_iobtotal_label_string">IOB totale:</string>
     <string name="treatments_newtreatment_insulinamount_label">Insulina</string>
-    <string name="treatments_newtreatment_carbsamount_label">Carboidrati</string>
+    <string name="treatments_newtreatment_carbsamount_label">CHO</string>
     <string name="treatments_wizard_bg_label">BG</string>
     <string name="treatments_wizard_tt_label">TT</string>
-    <string name="treatments_wizard_carbs_label">Carboidrati</string>
+    <string name="treatments_wizard_carbs_label">CHO</string>
     <string name="treatments_wizard_correction_label">Correzione</string>
     <string name="insulin_unit_shortname">U</string>
     <string name="treatments_wizard_bolusiob_label">IOB da bolo</string>
@@ -158,7 +158,7 @@
     <string name="sms_bolus">Bolo:</string>
     <string name="basal">Basale</string>
     <string name="sms_basal">Basale</string>
-    <string name="carbs">Carboidrati</string>
+    <string name="carbs">CHO</string>
     <string name="changeyourinput">Cambia il tuo input!</string>
     <string name="setextendedbolusquestion">Imposta nuovo bolo esteso:</string>
     <string name="configbuilder_bgsource">Origine glicemia</string>
@@ -177,7 +177,7 @@
     <string name="loopdisabled">LOOP DISABILITATO DAI VINCOLI</string>
     <string name="treatments_wizard_basaliob_label">IOB da basale</string>
     <string name="bolusconstraintapplied">Vincolo bolo applicato</string>
-    <string name="carbsconstraintapplied">Vincolo carboidrati applicato</string>
+    <string name="carbsconstraintapplied">Vincolo CHO applicato</string>
     <string name="careportal_bgcheck">Controllo glicemia</string>
     <string name="careportal_announcement">Annuncio</string>
     <string name="careportal_note">Nota</string>
@@ -194,15 +194,15 @@
     <string name="careportal_combobolus">Bolo combo</string>
     <string name="careportal_tempbasalstart">Inizio basale temporanea</string>
     <string name="careportal_tempbasalend">Fine basale temporanea</string>
-    <string name="careportal_carbscorrection">Correzione con carboidrati</string>
+    <string name="careportal_carbscorrection">Correzione con CHO</string>
     <string name="careportal_openapsoffline">OpenAPS Offline</string>
     <string name="careportal_newnstreatment_eventtype">Tipo di evento</string>
     <string name="careportal_newnstreatment_other">Altro</string>
     <string name="careportal_newnstreatment_meter">Glucometro</string>
     <string name="careportal_newnstreatment_sensor">Sensore</string>
-    <string name="careportal_newnstreatment_carbs_label">Carboidrati</string>
+    <string name="careportal_newnstreatment_carbs_label">CHO</string>
     <string name="careportal_newnstreatment_insulin_label">Insulina</string>
-    <string name="careportal_newnstreatment_carbtime_label">Tempo carboidrati</string>
+    <string name="careportal_newnstreatment_carbtime_label">Tempo CHO</string>
     <string name="careportal_newnstreatment_split_label">Frazione</string>
     <string name="careportal_newnstreatment_duration_label">Durata</string>
     <string name="careportal_newnstreatment_percent_label">Percentuale</string>
@@ -226,9 +226,9 @@
     <string name="nav_import">Importa impostazioni</string>
     <string name="openapsma_maxbasal_title">Max U/h a cui limitare una basale temporanea</string>
     <string name="openapsma_maxbasal_summary">Questo valore è chiamato max basale nel contesto OpenAPS</string>
-    <string name="openapsma_maxiob_title">Max IOB da basale che OpenAPS può erogare [U]</string>
-    <string name="openapsma_maxiob_summary">Questo valore è chiamato Max IOB nel contesto OpenAPS\nIndica l\'insulina massima in [U] che APS può erogare contemporaneamente.</string>
-    <string name="dismiss">RESPINGI</string>
+    <string name="openapsma_maxiob_title">Max IOB da basale a cui limitare OpenAPS [U]</string>
+    <string name="openapsma_maxiob_summary">Questo valore è chiamato Max IOB nel contesto OpenAPS\nIndica l\'insulina massima in [U] che APS può erogare in contemporanea.</string>
+    <string name="dismiss">RIMUOVI</string>
     <string name="danarpump">DanaR</string>
     <string name="connecting">Connessione</string>
     <string name="connected">Connesso</string>
@@ -341,7 +341,7 @@
     <string name="quickwizard">Calcolatore Rapido</string>
     <string name="quickwizardsettings">Impostazioni Calcolatore Rapido</string>
     <string name="overview_editquickwizard_buttontext">Testo:</string>
-    <string name="overview_editquickwizard_carbs">Carboidrati:</string>
+    <string name="overview_editquickwizard_carbs">CHO:</string>
     <string name="overview_editquickwizard_valid">Valido:</string>
     <string name="overview_editquickwizardlistactivity_add">Aggiungi</string>
     <string name="overview_quickwizard_item_edit_button">Modifica</string>
@@ -543,7 +543,7 @@
     <string name="insulin_shortname">INS</string>
     <string name="enablesuperbolus">Abilita superbolo nel calcolatore</string>
     <string name="enablesuperbolus_summary">Abilita la funzionalità superbolo nel calcolatore. Non abilitare fino a quando non impari ciò che realmente fa. PUÒ CAUSARE SOVRADOSAGGIO DI INSULINA SE USATO IMPROPRIAMENTE!</string>
-    <string name="show_statuslights">Mostra indicatori di stato sulla schermata iniziale</string>
+    <string name="show_statuslights">Mostra indicatori di stato sulla home</string>
     <string name="show_statuslights_extended">Mostra indicatori estesi sulla home</string>
     <string name="show_statuslights_extended_summary">Abilita indicatori di stato estesi per \"età\" cannula, insulina, sensore, serbatoio e livello batteria sulla schermata iniziale.</string>
     <string name="statuslights_res_warning">Soglia di avviso livello serbatoio [U]</string>
@@ -555,7 +555,7 @@
     <string name="virtualpump_firmware_label">Firmware</string>
     <string name="pump_lastconnection_label">Ultima connessione</string>
     <string name="danar_bluetooth_status">Stato bluetooth</string>
-    <string name="nav_about">Riguardo a</string>
+    <string name="nav_about">Informazioni su</string>
     <string name="smscommunicator_missingsmspermission">Autorizzazione SMS mancante</string>
     <string name="smscommunicator_missingphonestatepermission">Autorizzazione stato telefono mancante</string>
     <string name="xdripstatus_settings">Stato xDrip (smartwatch)</string>
@@ -622,7 +622,7 @@
     <string name="ns_localbroadcasts">Abilita le trasmissioni ad altre app (come xDrip). Non abilitare se hai installato più di un\'istanza di AAPS o NSClient!</string>
     <string name="ns_localbroadcasts_title">Abilita le trasmissioni locali.</string>
     <string name="careportal_activity_label">ATTIVITÀ &amp; FEEDBACK</string>
-    <string name="careportal_carbsandbolus_label">CARBOIDRATI &amp; BOLO</string>
+    <string name="careportal_carbsandbolus_label">CHO &amp; BOLO</string>
     <string name="careportal_cgm_label">CGM &amp; OPENAPS</string>
     <string name="careportal_pump_label">MICRO</string>
     <string name="overview_newtempbasal_basalabsolute">Valore basale [U/h]</string>
@@ -776,7 +776,7 @@
     <string name="format_hours">%1$.2f h</string>
     <string name="enablesmbalways">Abilita SMB sempre</string>
     <string name="enablesmbalways_summary">Abilita SMB sempre, indipendentemente dai boli. Possibile solo con sorgente glicemia con un buon filtraggio dei dati, come G5</string>
-    <string name="enablesmbaftercarbs">Abilita SMB dopo i carboidrati</string>
+    <string name="enablesmbaftercarbs">Abilita SMB dopo i CHO</string>
     <string name="enablesmbaftercarbs_summary">Abilita SMB per 6h dopo i carboidrati, anche con 0 COB. Possibile solo con sorgente glicemia con un buon filtraggio dei dati, come G5</string>
     <string name="enablesmbwithcob">Abilita SMB con COB</string>
     <string name="enablesmbwithcob_summary">Abilita SMB quando COB è attivo (ci sono carboidrati non assorbiti).</string>
@@ -787,7 +787,7 @@
     <string name="let_temp_basal_run">Lascia eseguire la basale temporanea</string>
     <string name="mute">Muto</string>
     <string name="overview_insulin_label">Insulina</string>
-    <string name="overview_carbs_label">Carboidrati</string>
+    <string name="overview_carbs_label">CHO</string>
     <string name="overview_buttons_selection">Tasti</string>
     <string name="show_calibration_button_summary">Invia una calibrazione a xDrip+ o apre la finestra di calibrazione del G5</string>
     <string name="show_cgm_button_summary">Apre xDrip+, il tasto indietro torna ad AAPS</string>
@@ -819,7 +819,7 @@
     <string name="overview_show_activity">Attività</string>
     <string name="overview_show_sensitivity">Sensibilità</string>
     <string name="overview_show_deviations">Deviazioni</string>
-    <string name="overview_show_cob">Carboidrati attivi</string>
+    <string name="overview_show_cob">CHO attivi</string>
     <string name="overview_show_iob">Insulina attiva</string>
     <string name="overview_show_basals">Basali</string>
     <string name="no_action_selected">Nessuna azione selezionata, non succederà nulla</string>
@@ -869,7 +869,7 @@
     <string name="readstatusfailed">Lettura stato fallita</string>
     <string name="record_pump_site_change">Registra cambio posizione cannula</string>
     <string name="record_insulin_cartridge_change">Registra cambio serbatoio insulina</string>
-    <string name="smbalwaysdisabled">Le funzioni \"SMB sempre\" e \"SMB dopo i carboidrati\" sono disabilitate perché l\'attuale sorgente delle glicemie non supporta il filtraggio avanzato</string>
+    <string name="smbalwaysdisabled">Le funzioni \"SMB sempre\" e \"SMB dopo i CHO\" sono disabilitate perché l\'attuale sorgente delle glicemie non supporta il filtraggio avanzato</string>
     <string name="smbnotallowedinopenloopmode">SMB non consentito in modalità loop aperto</string>
     <string name="food_short">Cibo</string>
     <string name="reset">reset</string>
@@ -893,9 +893,9 @@
     <string name="firstinsulinincrement">Primo incremento di insulina</string>
     <string name="secondinsulinincrement">Secondo incremento di insulina</string>
     <string name="thirdinsulinincrement">Terzo incremento di insulina</string>
-    <string name="firstcarbsincrement">Primo incremento di carboidrati</string>
-    <string name="secondcarbsincrement">Secondo incremento di carboidrati</string>
-    <string name="thirdcarbsincrement">Terzo incremento di carboidrati</string>
+    <string name="firstcarbsincrement">Primo incremento di CHO</string>
+    <string name="secondcarbsincrement">Secondo incremento di CHO</string>
+    <string name="thirdcarbsincrement">Terzo incremento di CHO</string>
     <string name="cgm">CGM</string>
     <string name="ns_wifionly">Usa solo connessione WiFi</string>
     <string name="ns_wifi_ssids">WiFi SSID</string>
