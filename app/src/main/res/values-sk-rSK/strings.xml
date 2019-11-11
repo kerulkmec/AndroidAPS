@@ -708,6 +708,7 @@
     <string name="bgsource_upload">Nastavenie nahrávania glykémie</string>
     <string name="wear_detailed_delta_title">Zobrazovať detailné zmeny</string>
     <string name="wear_detailed_delta_summary">Zobrazovať rozdiel s jedným desatinným miestom naviac</string>
+    <string name="smbmaxminutes">SMB max. minút</string>
     <string name="smbmaxminutes_summary">Maximálny počet minút bazálu, ku ktorým se limituje SMB</string>
     <string name="unsupportedfirmware">Nepodporovaný firmware v pumpe</string>
     <string name="dexcomg5_xdripupload_title">Odosielať glykémie do xDrip+</string>
