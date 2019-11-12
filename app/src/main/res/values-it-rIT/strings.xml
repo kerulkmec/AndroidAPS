@@ -708,6 +708,7 @@
     <string name="bgsource_upload">Impostazioni caricamento glicemia</string>
     <string name="wear_detailed_delta_title">Mostra delta dettagliato</string>
     <string name="wear_detailed_delta_summary">Mostra delta con una cifra decimale in più</string>
+    <string name="smbmaxminutes">Max minuti SMB</string>
     <string name="smbmaxminutes_summary">Max minuti di basale a cui limitare SMB</string>
     <string name="unsupportedfirmware">Firmware del micro non supportato</string>
     <string name="dexcomg5_xdripupload_title">Invia dati glicemia a xDrip+</string>
