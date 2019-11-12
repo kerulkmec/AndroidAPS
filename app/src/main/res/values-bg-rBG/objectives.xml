@@ -36,7 +36,6 @@
     <string name="objectives_useloop">Отворете съдържанието на Цикъл плъгина.</string>
     <string name="objectives_usescale">Използвайте функцията за удължаване на периода на графиката, като задържите върху нея.</string>
     <string name="objectives_button_enter">Въведи</string>
-    <string name="enter_code_obtained_from_developers_to_bypass_the_rest_of_objectives">Въведете кода, получен от разработчиците да прескочите останалите цели</string>
     <string name="codeaccepted">Код приет!</string>
     <string name="codeinvalid">Неправилен код</string>
     <string name="objectives_exam_objective">Докажете знанията си</string>
