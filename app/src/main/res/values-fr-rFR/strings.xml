@@ -709,6 +709,7 @@ L\'ENSEMBLE DES RISQUES LIÉS À LA QUALITÉ ET À LA PERFORMANCE DU PROGRAMME S
     <string name="bgsource_upload">Paramètres de téléchargement des glycémies</string>
     <string name="wear_detailed_delta_title">Afficher le delta détaillé</string>
     <string name="wear_detailed_delta_summary">Afficher delta avec une décimale supplémentaire</string>
+    <string name="smbmaxminutes">SMB minutes max</string>
     <string name="smbmaxminutes_summary">Max. minutes de basal pour limiter le SMB</string>
     <string name="unsupportedfirmware">Firmware pompe incompatible </string>
     <string name="dexcomg5_xdripupload_title">Transmettre les données G vers xDrip+</string>
