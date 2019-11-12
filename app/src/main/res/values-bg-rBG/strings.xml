@@ -98,6 +98,7 @@
     <string name="openapsma_profile_label">Профил</string>
     <string name="openapsma_mealdata_label">Данни за хранене</string>
     <string name="result">Резултат</string>
+    <string name="result_insulin_carbs">Резултат: %1$s %2$s</string>
     <string name="openapsma_noglucosedata">Няма данни за КЗ</string>
     <string name="nochangerequested">Не се изисква промяна</string>
     <string name="openapsma_request_label">Искане</string>
@@ -215,6 +216,7 @@
     <string name="overview_tempbasal_button">Временен базал</string>
     <string name="overview_extendedbolus_button">Удължен болус</string>
     <string name="configbuilder_nightscoutversion_label">Nightscout версия:</string>
+    <string name="missing_carbs">Нужни %1$dг</string>
     <string name="exported">Настройките са експортирани</string>
     <string name="export_to">Експортирай настройките в </string>
     <string name="import_from">Импорт на настройки от</string>
@@ -546,6 +548,8 @@
     <string name="show_statuslights_extended_summary">Показвай подробни статус светлини за канула, инсулин, сензор, резервоар и батерията на началния екран.</string>
     <string name="statuslights_res_warning">Ниво за аларма за останал инсулин в резервоара [Е]</string>
     <string name="statuslights_res_critical">Критично ниво на останал инсулин в резервоар [Е]</string>
+    <string name="statuslights_bat_warning">Аларма при заряд на батерия под [%]</string>
+    <string name="statuslights_bat_critical">Критично ниво на батерията под [%]</string>
     <string name="iob">IOB</string>
     <string name="cob">СОВ</string>
     <string name="virtualpump_firmware_label">Фърмуер</string>
@@ -704,6 +708,7 @@
     <string name="bgsource_upload">Настройки при качване на КЗ към Nightscout</string>
     <string name="wear_detailed_delta_title">Показвай подробна делта</string>
     <string name="wear_detailed_delta_summary">Показвай делта с още един десетичен знак</string>
+    <string name="smbmaxminutes">Максимум минути СМБ</string>
     <string name="smbmaxminutes_summary">Максимални минути за ограничаване на базала от SMB</string>
     <string name="unsupportedfirmware">Неподдържан фърмуер на помпата</string>
     <string name="dexcomg5_xdripupload_title">Изпращай данни за КЗ към xDrip+</string>
@@ -1143,6 +1148,8 @@
     <string name="tidepool_upload_tbr">Качвай временни базали</string>
     <string name="tidepool_upload_profile">Качвай смени на профил и временни цели</string>
     <string name="tidepool_upload_bg">Качвай ръчните измервания на КЗ</string>
+    <string name="dst_in_24h_warning">Смяна на времето след по-малко от 24ч</string>
+    <string name="dst_loop_disabled_warning">Смяна на времето след по-малко от 3 часа - минавам в отворен режим</string>
     <string name="storage">Ограничение поради липса на памет</string>
     <string name="diskfull">Освободете поне %1$d Мб в паметта на телефона! Loop изключен!</string>
     <string name="wrongformat">Грешен формат</string>
@@ -1230,6 +1237,8 @@
     <string name="medtronic_pump_battery_no">Не е избрано (общ)</string>
     <string name="medtronic_pump_battery_alkaline">Алкални</string>
     <string name="medtronic_pump_battery_lithium">Литиева</string>
+    <string name="medtronic_pump_battery_nizn">NiZn батерия</string>
+    <string name="medtronic_bolus_debugging">Болус/Корекция подробно</string>
     <!-- RL BLE Scanning -->
     <string name="rileylink_scanner_scan_scan">СКАНИРАЙ</string>
     <string name="rileylink_scanner_scan_stop">СТОП</string>
@@ -1365,4 +1374,7 @@
     <string name="format_percent">%1$d %%</string>
     <string name="boluswizard">Болус калкулатор</string>
     <string name="unit_minute_short">мин</string>
+    <string name="format_carbs">%1$dг</string>
+    <string name="common_on">Вкл</string>
+    <string name="common_off">Изкл</string>
 </resources>
