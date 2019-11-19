@@ -259,7 +259,7 @@ L\'ENSEMBLE DES RISQUES LIÉS À LA QUALITÉ ET À LA PERFORMANCE DU PROGRAMME S
     <string name="smscommunicator">Communicateur SMS</string>
     <string name="waitingforpumpresult">Attente de résultat</string>
     <string name="smscommunicator_allowednumbers">Numéros de tél autorisés</string>
-    <string name="smscommunicator_allowednumbers_summary">+XXXXXXXXXX;+YYYYYYYYYY</string>
+    <string name="smscommunicator_allowednumbers_summary">+XXXXXXXXXX; +YYYYYYYYYY</string>
     <string name="smscommunicator_bolusreplywithcode">Renvoyer le code %2$s pour injecter le bolus %1$.2fU</string>
     <string name="smscommunicator_calibrationreplywithcode">Renvoyer le code %2$s pour envoyer la calibration %1$.2f</string>
     <string name="smscommunicator_bolusfailed">Échec du Bolus</string>
@@ -705,14 +705,14 @@ L\'ENSEMBLE DES RISQUES LIÉS À LA QUALITÉ ET À LA PERFORMANCE DU PROGRAMME S
     <string name="btwatchdog_title">BT Watchdog</string>
     <string name="btwatchdog_summary">Ceci va arrêter le Bluetooth du téléphone pour une seconde si la connexion pompe n’est pas possible. Cela peut assister certains téléphones dont la connexion Bluetooth se bloque.</string>
     <string name="eversense">App Eversense (patché)</string>
-    <string name="dexcomg5_nsupload_title">Remonter les données glycémiques vers NS</string>
+    <string name="dexcomg5_nsupload_title">Remonter les Gly vers NS</string>
     <string name="bgsource_upload">Paramètres de téléchargement des glycémies</string>
     <string name="wear_detailed_delta_title">Afficher le delta détaillé</string>
     <string name="wear_detailed_delta_summary">Afficher delta avec une décimale supplémentaire</string>
     <string name="smbmaxminutes">SMB minutes max</string>
     <string name="smbmaxminutes_summary">Max. minutes de basal pour limiter le SMB</string>
     <string name="unsupportedfirmware">Firmware pompe incompatible </string>
-    <string name="dexcomg5_xdripupload_title">Transmettre les données G vers xDrip+</string>
+    <string name="dexcomg5_xdripupload_title">Transmettre les Gly vers xDrip+</string>
     <string name="dexcomg5_xdripupload_summary">Dans xDrip+ veuillez séléctionner 640g/Eversense comme source de données</string>
     <string name="nsclientbg">Glycémie NSClient</string>
     <string name="minimalbasalvaluereplaced">Valeur de basal remplacée par la valeur minimale autorisée : %1$s</string>
