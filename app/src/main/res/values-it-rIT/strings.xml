@@ -499,7 +499,7 @@
     <string name="nowritepermission">NSCLIENT non ha il permesso di scrittura. API secret errato?</string>
     <string name="wear_settings">Impostazioni smartwatch</string>
     <string name="wear_detailedIOB_title">Mostra IOB dettagliato</string>
-    <string name="wear_detailedIOB_summary">Dividi IOB tra boli e IOB da basale sulla watchface</string>
+    <string name="wear_detailedIOB_summary">Dividi IOB in bolo e basale sulla watchface</string>
     <string name="nosuccess">non riuscito - controlla il telefono</string>
     <string name="notavailable">Non disponibile</string>
     <string name="patientage">Età del paziente</string>
@@ -742,7 +742,7 @@
     <string name="combo_no_pump_connection">Nessuna connessione per %1$d min</string>
     <string name="combo_tbr_remaining">%1$d%% (%2$d min restanti)</string>
     <string name="combo_pump_state_initializing">Inizializzazione</string>
-    <string name="combo_pump_state_suspended_due_to_error">Sospeso a causa di errore</string>
+    <string name="combo_pump_state_suspended_due_to_error">Sospeso a causa di un errore</string>
     <string name="combo_pump_state_suspended_by_user">Sospeso dall\'utente</string>
     <string name="combo_pump_state_running">In esecuzione</string>
     <string name="combo_pump_action_cancelling_tbr">Cancellazione TBR</string>
