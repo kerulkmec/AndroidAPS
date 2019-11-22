@@ -259,7 +259,7 @@ L\'ENSEMBLE DES RISQUES LIÉS À LA QUALITÉ ET À LA PERFORMANCE DU PROGRAMME S
     <string name="smscommunicator">Communicateur SMS</string>
     <string name="waitingforpumpresult">Attente de résultat</string>
     <string name="smscommunicator_allowednumbers">Numéros de tél autorisés</string>
-    <string name="smscommunicator_allowednumbers_summary">+XXXXXXXXXX; +YYYYYYYYYY</string>
+    <string name="smscommunicator_allowednumbers_summary">+XXXXXXXXXX;+YYYYYYYYYY</string>
     <string name="smscommunicator_bolusreplywithcode">Renvoyer le code %2$s pour injecter le bolus %1$.2fU</string>
     <string name="smscommunicator_calibrationreplywithcode">Renvoyer le code %2$s pour envoyer la calibration %1$.2f</string>
     <string name="smscommunicator_bolusfailed">Échec du Bolus</string>
